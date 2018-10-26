@@ -1,0 +1,403 @@
+/*主板*/
+.u-main{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    font-family: "微软雅黑", "宋体";
+    background-color:#f3f3f3;
+}
+/*上边*/
+.u-top{
+    position: relative;
+    width: 1000px;
+    height: 500px;
+    top:-20px;
+    left: 50%;
+    margin-left: -500px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    /*立体效果*/
+    box-shadow:15px 15px 15px rgba(0, 0, 0, 0.03);
+}
+.u-top>.u-img{
+    position: relative;
+    width: 1000px;
+    height: 250px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.u-top>.u-img>img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.u-top>.u-myself{
+    position: relative;
+    width: 1000px;
+    height: 250px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.u-top>.u-myself>.left{
+    position: relative;
+    width: 200px;
+    height: 250px;
+    top:90px;
+    float: left;
+    border-bottom-left-radius: 5px;
+}
+.u-top>.u-myself>.left>.img{
+    position: relative;
+    width: 180px;
+    height: 180px;
+    left: 20px;
+    top:-120px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+.u-top>.u-myself>.left>.img>div{
+    position: relative;
+    width: 170px;
+    height: 170px;
+    left: 50%;
+    margin-left: -85px;
+    top: 5px;
+    border-radius: 5px;
+}
+.u-top>.u-myself>.left>.img>div>a>img{
+	position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.u-top>.u-myself>.right{
+    position: relative;
+    width: 800px;
+    height: 250px;
+    float: left;
+    border-bottom-right-radius: 5px;
+}
+.u-top>.u-myself>.right>.zuo{
+    position: relative;
+    width: 650px;
+    height: 250px;
+    float: left;
+}
+.u-top>.u-myself>.right>.zuo>div{
+    position: relative;
+    width: 620px;
+    height: 220px;
+    top: 0px;
+    left: 30px;
+}
+.u-top>.u-myself>.right>.zuo>div>.p2{
+    position: relative;
+    top: 40px;
+}
+.u-top>.u-myself>.right>.zuo>div>.p3{
+    position: relative;
+    top: 55px;
+}
+.u-top>.u-myself>.right>.zuo>div>.p4{
+    position: relative;
+    top: 70px;
+}
+.u-top>.u-myself>.right>.zuo>div>.p5{
+    position: relative;
+    top: 87px;
+}
+.u-top>.u-myself>.right>.zuo>div>p>.span-1{
+    position: relative;
+    top:10px;
+    color: #000000;
+    font-size: 24px;
+    /*加粗*/
+    font-weight: bold;
+}
+.u-top>.u-myself>.right>.zuo>div>p>.span-1-1{
+    position: relative;
+    left: 20px;
+    top:15px;
+    color: #000000;
+    font-size: 18px;
+    opacity: 0.9;
+}
+.u-top>.u-myself>.right>.zuo>div>p>.span-2,.span-3,.span-4,.span-5{
+    position: relative;
+    color: #000000;
+    font-size: 16px;
+    /*加粗*/
+    font-weight: bold;
+}
+.u-top>.u-myself>.right>.zuo>div>p>.span-2-2{
+    position: relative;
+    left: 46px;
+    color: #000000;
+    font-size: 15px;
+    opacity: 0.9;
+}
+.u-top>.u-myself>.right>.zuo>div>p>.span{
+    position: relative;
+    left: 30px;
+    color: #000000;
+    font-size: 15px;
+    opacity: 0.9;
+}
+
+
+.u-top>.u-myself>.right>.you{
+    position: relative;
+    width: 150px;
+    height: 250px;
+    float: left;
+    border-bottom-right-radius: 5px;
+}
+.u-top>.u-myself>.right>.you>div{
+    position: relative;
+    width: 120px;
+    height: 35px;
+    left: 15px;
+    top: 200px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(41, 174, 255);
+}
+.u-top>.u-myself>.right>.you>div:hover{
+    background-color: rgb(29, 199, 255);
+}
+.u-top>.u-myself>.right>.you>div>a{
+    position: relative;
+    color: #ffffff;
+    font-size: 17px;
+    top: 6px;
+    font-family: 华文行楷;
+}
+
+
+
+/*下边*/
+.u-botton{
+    position: relative;
+    width: 1000px;
+    height: auto;
+    left: 50%;
+    top: 10px;
+    margin-left: -500px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    /*立体效果*/
+    box-shadow:15px 15px 15px rgba(0, 0, 0, 0.03);
+}
+.u-botton>.u-tiezi{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.u-botton>.u-tiezi>a>div{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    top: 5px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgb(41, 174, 255);
+}
+.u-botton>.u-tiezi>a>div>span{
+    position: relative;
+    top: 0px;
+    font-size: 24px;
+    font-family: 华文行楷;
+    color: #ffffff;
+}
+.u-botton>.u-tiezi>a>div:hover{
+    background-color: rgb(29, 199, 255);
+}
+.u-botton>.u-suibi{
+    position: relative;
+    width: 96%;
+    left: 2%;
+    height: auto;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.u-botton>.u-suibi>.shang-1{
+    position: relative;
+    width: 60%;
+    height: 40px;
+    float: left;
+}
+.u-botton>.u-suibi>.shang-2{
+    position: relative;
+    width: 40%;
+    height: 40px;
+    left:0px;
+    float: left;
+}
+.u-botton>.u-suibi>.shang-1>.span-1{
+    position: relative;
+    color:#000000;
+    font-size: 18px;
+    font-weight: bold;
+}
+.u-botton>.u-suibi>.shang-2>.span-2{
+    position: relative;
+    top:10px;
+    left: 250px;
+    color:#000000;
+}
+.u-botton>.u-suibi>.zhong{
+    position: relative;
+    width: 100%;
+    height: auto;
+    word-break: break-all;
+}
+.u-botton>.u-suibi>.zhong>span{
+    position: relative;
+    color:#000000;
+    font-size:14px;
+}
+.u-botton>.u-suibi>.xia{
+    position: relative;
+    width: 100%;
+    height: 40px;
+}
+.u-botton>.u-suibi>.xia>form>.xiugai{
+    position: relative;
+    width: 50px;
+    height: 30px;
+    top: 5px;
+    left: 820px;
+    float: left;
+    border: 0px;
+    border-radius: 5px;
+    /*一只手*/
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 华文行楷;
+    font-size:17px;
+    background-color: rgb(41, 174, 255);
+}
+.u-botton>.u-suibi>.xia>form>.xiugai:hover{
+    background-color: rgb(29, 199, 255);
+}
+.u-botton>.u-suibi>.xia>form>.shanchu{
+    position: relative;
+    width: 50px;
+    height: 30px;
+    top: 5px;
+    left: 850px;
+    border: 0px;
+    border-radius: 5px;
+    /*一只手*/
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 华文行楷;
+    font-size:17px;
+    background-color: rgb(41, 174, 255);
+}
+.u-botton>.u-suibi>.xia>form>.shanchu:hover{
+    background-color: rgb(29, 199, 255);
+}
+.u-botton>.u-suibi>.img>img{
+	position: relative;
+    width: 30%;
+    height: 30%;
+    border-radius: 5px;
+}
+
+.u-botton>.f-hr{
+	position: relative;
+	width: 96%;
+    left: 2%;
+	opacity: 0.4;
+}
+
+
+
+/* 评论展示 */
+.myself-hr{
+	position: relative; 
+	width:96%;
+	left:2%;
+	opacity:0.1;
+	color:#000000;
+	border-style:dashed;
+}
+.myself-p{
+	position: relative; 
+	width:82%;
+	height:auto;
+	left:2%;
+	float:left;
+	/* word-break: break-all; */
+}
+.myself-p>.name{
+	position: relative; 
+	font-size: 18px;
+	color: #000000;
+	/* 换行 */
+	word-break: break-all;
+}
+.myself-p>.pcontent{
+	position: relative; 
+	font-size: 14px;
+	color: #000000;
+	/* 换行 */
+	word-break: break-all;
+}
+.p-shanchu{
+	position: relative; 
+	width:14%;
+	height:50px;
+	left:2%;
+	float:left;
+}
+.p-shanchu>form>.p-shanchu{
+	position: relative; 
+	width:50px;
+	height:30px;
+	top:10px;
+	left:42px;
+	/*一只手*/
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 华文行楷;
+    font-size:17px;
+    border-radius:5px;
+	background-color: #9d9d9d;
+}
+.p-shanchu>form>.p-shanchu:hover{
+	background-color: rgb(29, 199, 255);
+}
+
+
+
+
+
+
+
+
+
+
+/*下面连着的4个作用是：去掉html里超链接下的横线。*/
+a,.biaodan:link {
+    text-decoration: none;
+}
+a,.biaodan:visited {
+    text-decoration: none;
+}
+a,.biaodan:hover {
+    text-decoration: none;
+}
+a,.biaodan:active {
+    text-decoration: none;
+}

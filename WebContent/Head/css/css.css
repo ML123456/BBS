@@ -1,0 +1,15 @@
+
+/* 个人主页、设置 */
+.menu2{
+	width: 200px;
+	position: absolute;
+	left: 0px; 
+	top: 80px; 
+	z-index: 998;
+	display: none;
+	color:red;
+}
+.menu1:hover .menu2{
+	display: block;
+}
+

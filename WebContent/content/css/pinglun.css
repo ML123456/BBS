@@ -1,0 +1,68 @@
+.pinglun {
+	position: relative;
+	width: 660px;
+	height: 70px;
+	left: 50%;
+	margin-left: -330px;
+	top: 0px;
+	background-color: rgba(0, 0, 0, 0.03);
+	border-radius: 8px;
+	z-index: 100;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.03);
+}
+
+.pinglun>.input {
+	position: relative;
+	width: 100%;
+	height: 60%;
+	top: 22%;
+	z-index: 9;
+}
+
+.pinglun>.input>input {
+	position: relative;
+	width: 80%;
+	height: 70%;
+	top: 10%;
+	left: 15px;
+	border-radius: 8px;
+	z-index: 9;
+	background: no-repeat 0 0 scroll #ffffff;
+	border: none;
+}
+
+.pinglun>.button {
+	position: relative;
+	width: 65px;
+	height: 35px;
+	left: 565px;
+	top: -34%;
+	z-index: 9;
+	text-align: center;
+	border-radius: 10px;
+	background-color: #0f88eb;
+}
+
+.pinglun>.button:hover {
+	background-color: #14b4ff;
+}
+
+.pinglun>.button>a>span {
+	position: relative;
+	color: #ffffff;
+	top: 9px;
+}
+.pinglun>.button>a>span>input {
+	position: relative;
+	width: 65px;
+	height: 35px;
+	top: -28%;
+	border-radius: 10px;
+	background-color: #0f88eb;
+	color:#ffffff;
+	/*一只手*/
+	cursor:pointer;
+}
+.pinglun>.button>a>span>input:hover {
+	background-color: #14b4ff;
+}

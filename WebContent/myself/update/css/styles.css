@@ -1,0 +1,157 @@
+.up-body{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top:0px;
+	left:0px;
+	background-color: #f0f0f0;
+}
+.up-center{
+	position: relative;
+	width: 800px;
+	height: 620px;
+	top:100px;
+	left: 50%;
+	margin-left: -400px;
+	border-radius: 8px;
+	background-color: #ffffff;
+	/* display: none;  */
+}
+.up-center>.img{
+	position: relative;
+	width: 25px;
+	height: 25px;
+	left: 384px;
+}
+.up-center>.img>a>img{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+#f_imghead{
+	position: relative;
+	width: 20%;
+	height: 20%;
+}
+
+
+/* === List Styles === */
+.up-contact_form ul {
+    width:750px;
+    list-style-type:none;
+	list-style-position:outside;
+	margin:0px;
+	padding:0px;
+}
+.up-contact_form li{
+	padding:12px; 
+	border-bottom:1px solid #eee;
+	position:relative;
+} 
+.up-contact_form li:first-child, .up-contact_form li:last-child {
+	border-bottom:1px solid #777;
+}
+
+/* === Form Header === */
+.up-contact_form h2 {
+	margin:0;
+	display: inline;
+}
+.up-required_notification {
+	color:#d45252; 
+	margin:5px 0 0 0; 
+	display:inline;
+	float:right;
+}
+
+/* === Form Elements === */
+.up-contact_form label {
+	width:150px;
+	margin-top: 3px;
+	display:inline-block;
+	float:left;
+	padding:3px;
+}
+.up-contact_form input {
+	height:20px; 
+	width:220px; 
+	padding:5px 8px;
+}
+.up-contact_form textarea {padding:8px; width:300px;}
+.up-contact_form button {margin-left:156px;}
+
+	/* form element visual styles */
+	.up-contact_form input, .up-contact_form textarea { 
+		border:1px solid #aaa;
+		box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+		border-radius:2px;
+		padding-right:30px;
+		-moz-transition: padding .25s; 
+		-webkit-transition: padding .25s; 
+		-o-transition: padding .25s;
+		transition: padding .25s;
+	}
+	.up-contact_form input:focus, .up-contact_form textarea:focus {
+		background: #fff; 
+		border:1px solid #555; 
+		box-shadow: 0 0 3px #aaa; 
+		padding-right:70px;
+	}
+
+/* === HTML5 validation styles === */	
+.up-contact_form input:required, .up-contact_form textarea:required {
+	background: #fff url(../images/red_asterisk.png) no-repeat 98% center;
+}
+.up-contact_form input:required:valid, .up-contact_form textarea:required:valid {
+	background: #fff url(../images/valid.png) no-repeat 98% center;
+	box-shadow: 0 0 5px #5cd053;
+	border-color: #28921f;
+}
+.up-contact_form input:focus:invalid, .up-contact_form textarea:focus:invalid {
+	background: #fff url(../images/invalid.png) no-repeat 98% center;
+	box-shadow: 0 0 5px #d45252;
+	border-color: #b03535
+}
+
+/* === Form hints === */
+.form_hint {
+	background: #d45252;
+	border-radius: 3px 3px 3px 3px;
+	color: white;
+	margin-left:8px;
+	padding: 1px 6px;
+	z-index: 999; /* hints stay above all other elements */
+	position: absolute; /* allows proper formatting if hint is two lines */
+	display: none;
+}
+.form_hint::before {
+	content: "\25C0";
+	color:#d45252;
+	position: absolute;
+	top:1px;
+	left:-6px;
+}
+.up-contact_form input:focus + .form_hint {display: inline;}
+.up-contact_form input:required:valid + .form_hint {background: #28921f;}
+.up-contact_form input:required:valid + .form_hint::before {color:#28921f;}
+	
+/* === Button Style === */
+button.up-submit {
+	background-color: #36a8ff;
+	border: 0px;
+	border-radius: 5px;
+	color: #ffffff;
+	padding: 6px 20px;
+	text-align: center;
+}
+/*鼠标移上去的效果*/
+button.up-submit:hover {
+	opacity:.85;
+	cursor: pointer;
+	background-color: #31caff;
+}
+/*鼠标按下的效果*/
+button.up-submit:active {
+	background-color: #05d250;
+}
