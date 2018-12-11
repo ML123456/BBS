@@ -1,4 +1,4 @@
->>## [推荐论坛项目](https://github.com/maliangnansheng/BBS_SSM)
+>>## 推荐：[我的另一个基于ssm的论坛项目](https://github.com/maliangnansheng/BBS_SSM)
 >>### 这是一个界面美观，功能基本实现的论坛。
 >>---
 >>>> 可以直接使用，将项目导入eclipse，然后再把sql导入MySQL数据库就OK了。
