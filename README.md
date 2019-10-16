@@ -14,28 +14,28 @@
 >>### 预览
 >>#### 1，登录界面
 >>>>##### 以弹窗的形式
->>>>![image](https://github.com/ML123456/BBS/blob/master/waber/%E7%99%BB%E5%BD%95.png)
+>>>>![image](waber/登录.png)
 >>#### 2，注册界面
 >>>>##### 以弹窗的形式
->>>>![image](https://github.com/ML123456/BBS/blob/master/waber/%E6%B3%A8%E5%86%8C.png)
+>>>>![image](waber/注册.png)
 >>#### 3，未登录时的首页
 >>>>##### 此时游客是无法评论的
->>>>![image](https://github.com/ML123456/BBS/blob/master/waber/%E6%9C%AA%E7%99%BB%E5%BD%95%E9%A6%96%E9%A1%B5.png)
+>>>>![image](waber/未登录首页.png)
 >>#### 4，登录时的首页
 >>>>##### 当然，现在你可以尽情的吐槽别人的话题了
->>>>![image](https://github.com/ML123456/BBS/blob/master/waber/%E7%99%BB%E5%BD%95%E9%A6%96%E9%A1%B5.png)
+>>>>![image](waber/登录首页.png)
 >>#### 5，他人主页
 >>>>##### 可以看见他的个人信息和所有发过的帖子以及对应的评论
->>>>![image](https://github.com/ML123456/BBS/blob/master/waber/%E4%BB%96%E4%BA%BA%E4%B8%AD%E5%BF%83.png)
+>>>>![image](waber/他人中心.png)
 >>#### 6，个人主页
 >>>>##### 可以看见自己的个人信息和所有发过的帖子以及对应的评论，除此之外还可以编辑个人信息、更新头像、发表帖子
->>>>![image](https://github.com/ML123456/BBS/blob/master/waber/%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5.png)
+>>>>![image](waber/个人主页.png)
 >>#### 7，编辑个人信息
 >>>>##### 对自己的信息进行编辑
->>>>![image](https://github.com/ML123456/BBS/blob/master/waber/%E7%BC%96%E8%BE%91%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF.png)
+>>>>![image](waber/编辑个人信息.png)
 >>#### 8，发帖
 >>>>##### 以弹窗的形式
->>>>![image](https://github.com/ML123456/BBS/blob/master/waber/%E5%8F%91%E5%B8%96.png)
+>>>>![image](waber/发帖.png)
 >>#### 9，更改头像
 >>>>##### 以弹窗的形式
->>>>![image](https://github.com/ML123456/BBS/blob/master/waber/%E6%9B%B4%E6%8D%A2%E5%A4%B4%E5%83%8F.png)
+>>>>![image](waber/更换头像.png)
